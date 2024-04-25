@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <title>Test Bench</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Testbench's page</h1>
+    </header>
+    <div class="row-nav">
+        <ul>
+            <li>
+            <button class="a"><h3 class="A">More</h3>
+                <div class="listmenu">                
+                <ul class="bycode">
+                    <a href="#L1">Porto</a>
+                </ul>
+                <ul class="bydesc">
+                    <a href="#L2">Description</a>
+                </ul>
+                </div>
+            </button>
+            </li>
+        </ul>
+    </div>
+    
+    <section class="Tentang">
+        <h2>About Me</h2>
+        <p class="paragraf">a native beginner PHP programmer, and game programmer using the Godot engine (C#),
+                I'm currently studying at the Telkom University Surabaya Campus, I hope it's useful :D.
+        </p>
+        <p class="paragraf1">
+            This page build without using bootstrap or something like framework btw:'D.
+        </p>
+    </section>
+    <h2 class="Lkami">What can I do?</h2>
+    <section class="fitur">
+        <div class="fitur1">
+            <div class="InputC">
+                <ul>
+                    <h2 id="L1" class="L1">Portofolio</h2>
+                    <li class="gameops"><a href="https://github.com/Naufal453/Gameops.git" >GameOps</a></li>
+                    <li class="easyphp"><a href="https://github.com/Naufal453/Easyphp.git" >EasyPhp</a></li>
+                    <li class="A3"><a href="https://github.com/Naufal453/TugasPIPL.git" >Alternate Universe Web</a></li>
+                    <li class="ME"><a href="https://testbench.my.id" >This Web</a></li>
+                </ul>
+            </div>
+            <h2 class="Lkami">You can contact me via</h2>
+            <div class="InputD">
+                <ul>
+                    <h2 id="L2" class="L2">My Social Media</h2>
+                    <li class="insta"><a  href="https://www.instagram.com/testbench.4/">Instagram</a></li>
+                    <li class="FB"><a  href="https://www.facebook.com/naufal.alamsyah.5220">Facebook</a></li>
+                    <li class="GH"><a  href="https://github.com/Naufal453">Github</a></li>
+                    <li class="YT"><a  href="https://www.youtube.com/channel/UChSR-0_Dzb8KFNrbVb5dx3w">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="Kontakk">
+        <h2>Just Footer to fill this page Haha</h2>
+
+    </section>
+    
+</body></html>
