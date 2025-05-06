@@ -89,6 +89,12 @@
             color: #8892b0;
             max-width: 700px;
         }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            /* no underline */
+        }
     </style>
 </head>
 
@@ -127,10 +133,19 @@
             BrightPath Labs.</p>
     </section>
 
-    <section id="projects" class="section">
+    <section style="list-style: none;" id="projects" class="section">
         <h2>Projects</h2>
-        <p>Some key projects include a Spotify API web app, a personal blog CMS, and several open-source UI kits. These
-            projects are available on my GitHub profile.</p>
+        <li>
+            <h5><a href="https://github.com/naufal453/Alternate-Arc-Archive3.git">Alternate Arc Archive</a></h5>
+            <td style="padding-top: 10px;"></td><img width="600px"
+                style="border-radius: 15px;border: #7c838f;border:solid;" src="./assets/Untitled design.png" alt="">
+        </li>
+        <br>
+        <li>
+            <h5><a href="https://github.com/naufal453/waywes-gui.git">Waywes GUI</a></h5>
+            <td style="padding-top: 10px;"></td><img width="600px"
+                style="border-radius: 15px;border: #7c838f;border:solid;" src="./assets/gui.png" alt="">
+        </li>
     </section>
     <script>
         const sections = document.querySelectorAll('.section');
